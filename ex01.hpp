@@ -10,5 +10,9 @@
 template < typename T >
 T multiples (T& sum, T x, T n)
 {
-    sum = x * n;
+    sum = 1;
+    for (int i = 0; i < n; i++){
+        sum += x * i;
+    }
+    return sum;
 }
