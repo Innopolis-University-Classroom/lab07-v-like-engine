@@ -16,7 +16,7 @@ public:
         return num1 + num2;}
     T subtract() {
         return num1 - num2;
-    }zx
+    }
     T multiply() {
         return num1 * num2;
     }
